@@ -13,6 +13,9 @@
 		C9DF708A2892E4C00030DE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF70882892E4C00030DE20 /* Main.storyboard */; };
 		C9DF708C2892E4C10030DE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DF708B2892E4C10030DE20 /* Assets.xcassets */; };
 		C9DF708F2892E4C10030DE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF708D2892E4C10030DE20 /* LaunchScreen.storyboard */; };
+		C9DF70992892E5580030DE20 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF70982892E5580030DE20 /* Model.swift */; };
+		C9DF709B2892EA260030DE20 /* PriceReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF709A2892EA260030DE20 /* PriceReporter.swift */; };
+		C9DF709D2892EC620030DE20 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9DF709C2892EC620030DE20 /* data.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C9DF708B2892E4C10030DE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DF708E2892E4C10030DE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DF70902892E4C10030DE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DF70982892E5580030DE20 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C9DF709A2892EA260030DE20 /* PriceReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceReporter.swift; sourceTree = "<group>"; };
+		C9DF709C2892EC620030DE20 /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				C9DF70822892E4C00030DE20 /* AppDelegate.swift */,
 				C9DF70842892E4C00030DE20 /* SceneDelegate.swift */,
 				C9DF70862892E4C00030DE20 /* ViewController.swift */,
+				C9DF709A2892EA260030DE20 /* PriceReporter.swift */,
+				C9DF70982892E5580030DE20 /* Model.swift */,
 				C9DF70882892E4C00030DE20 /* Main.storyboard */,
 				C9DF708B2892E4C10030DE20 /* Assets.xcassets */,
 				C9DF708D2892E4C10030DE20 /* LaunchScreen.storyboard */,
 				C9DF70902892E4C10030DE20 /* Info.plist */,
+				C9DF709C2892EC620030DE20 /* data.txt */,
 			);
 			path = BCForward_DSW;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DF709D2892EC620030DE20 /* data.txt in Resources */,
 				C9DF708F2892E4C10030DE20 /* LaunchScreen.storyboard in Resources */,
 				C9DF708C2892E4C10030DE20 /* Assets.xcassets in Resources */,
 				C9DF708A2892E4C00030DE20 /* Main.storyboard in Resources */,
@@ -141,6 +151,8 @@
 				C9DF70872892E4C00030DE20 /* ViewController.swift in Sources */,
 				C9DF70832892E4C00030DE20 /* AppDelegate.swift in Sources */,
 				C9DF70852892E4C00030DE20 /* SceneDelegate.swift in Sources */,
+				C9DF70992892E5580030DE20 /* Model.swift in Sources */,
+				C9DF709B2892EA260030DE20 /* PriceReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
